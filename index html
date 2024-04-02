@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra CSS Practice</title>
+</head>
+<style>
+    .bing {background-color:rgb(88, 151, 88); padding: 3em; margin: 1rem; border: solid red 3rem; 
+    }
+   p {font-size: 24px;
+   }
+
+  #bingo { font-size: 37px; font-style: italic;
+
+  }
+
+  .ding{
+    border: dashed orange; margin: 1rem;
+  }
+  .silco {
+    font-size: 24px; 
+  }
+  h1 {
+    color: rgb(20, 135, 143); text-align: center; font-size: 60px;
+  }
+
+  .bilbo {
+    border: solid yellow;
+  }
+
+  .silco .bilbo:hover{
+    color: blue; font-size: 40px;
+    }
+.dada:hover{
+    color: aqua; font-size: 40px;
+}
+</style>
+<body>
+    <h1>Hello my name is Mina</h1>
+   
+<p class="bing" id="bingo">Lorem ipsum dolor sit amet <strong>consectetur adipisicing elit.</strong> Sequi impedit commodi reiciendis? Sint assumenda illum architecto reprehenderit itaque, ratione rerum voluptatum. Debitis, cumque dolore. Quidem dolorum neque quae commodi harum.</p>
+
+<p class="bing" > 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsum obcaecati illo mollitia aliquid explicabo id eius aperiam delectus deserunt dignissimos tenetur labore incidunt dolorem dolores, ut ipsa. Error, deserunt. </p>
+
+
+    <img class="ding" src="https://placedog.net/500" alt="picture of dog">
+
+<p class="bing"><strong>This is an unordered list</strong></p>
+    <ul class="silco">
+    <li class="bilbo">coding</li>
+    <li class="bilbo">gaming</li>
+    <li class="bilbo">fishing</li>
+    <li class="bilbo">computers</li>
+    <li class="bilbo">hardware</li>
+</ul>
+<nav>
+    <ul class="silco">
+        <li class="bilbo"><a href="https://brilliant.org/s/sem/coding/?utm_medium=cpc&utm_source=search&utm_term=159798483729_how%20to%20code_CTG_Computer_Science_Coding_Learn&utm_content=690590117959_&utm_campaign=20885884501_Mixed_Search_Category_Expansion_Global&gad_source=1&gclid=CjwKCAjwtqmwBhBVEiwAL-WAYVFGwNz__GV_KU8JQL0BF7sd7cxQ3CvgIZjmIDjVUyAa_wnDzHQ3nBoC7RcQAvD_BwE"><strong>coding</strong></a></li>
+        <li class="bilbo"><a href="https://www.jbhifi.com.au/collections/games-consoles"><strong>gaming</strong></a></li>
+        <li class="bilbo"><strong>fishing</strong></li>
+        <li class="bilbo"><strong>computers</strong></li>
+        <li class="bilbo"><strong>hardware</strong></li>
+    </ul>
+</nav>
+
+    <!--First Name-->
+    <label class="dada" for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" required><br>
+
+    <!--Last Name-->
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" required><br>
+
+    <!--Phone-->
+    <label for="Phone">Mobile Number:</label>
+    <input type="tel" id="Phone" name="Phone" pattern="(0-9){10}" placeholder="+61 0401 487 455" required><br>
+    
+    <!--Email-->
+    <label for="email">Email Address:</label>
+   <input type="email" id="email" name="email" required><br>
+
+
+
+
+
+
+    
+</body>
+</html>
